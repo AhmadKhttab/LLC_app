@@ -1,0 +1,73 @@
+name: LLC
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^1.0.0+2
+  drop_down_list: ^0.0.8
+  flutter_native_splash: ^2.4.2
+  flutter_popup_card: ^0.0.6
+  share_plus: ^10.1.1
+  url_launcher: ^6.3.1
+  http: any
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: images/splash.png
+  android: true
+  ios: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "images/Logo.png"
+  min_sdk_android: 24
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "images/Logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/splash.png
+    - images/ph1.jpg
+    - images/ph2.jpg
+    - images/ph3.jpg
+    - images/DAC.jpg
+    - images/ICPC.jpg
+    - images/search.jpg
+    - images/welcome.png   
+    - images/Logo.png
+    - images/logo-dark.png
+    - images/spec.png
+    - images/course.png
+    - images/facebook.png
+    - images/instagram.png
+    - images/mail.png
+    - images/website.png
+    - images/youtube.png
+    
+
+  fonts:
+    - family: arab
+      fonts:
+        - asset: fonts/arab.ttf
+    - family: Lumanosimo
+      fonts:
+        - asset: fonts/Lumanosimo-Regular.ttf
+    - family: ElMessiri
+      fonts:
+        - asset: fonts/ElMessiri-VariableFont_wght.ttf
